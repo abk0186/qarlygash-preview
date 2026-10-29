@@ -1,0 +1,31 @@
+# Pages CMS (https://pagescms.org) config — edit site content without code
+media:
+  input: assets/uploads
+  output: /assets/uploads
+content:
+  - name: menu
+    label: Мәзір / Меню
+    type: file
+    path: data/menu.json
+  - name: pages
+    label: Беттер / Страницы
+    type: collection
+    path: data/pages
+    format: json
+    fields:
+      - {name: title, label: Тақырып, type: object, fields: [{name: kk, type: string}, {name: ru, type: string}]}
+      - {name: intro, label: Кіріспе, type: object, fields: [{name: kk, type: text}, {name: ru, type: text}]}
+      - name: items
+        label: Жазбалар / Записи
+        type: object
+        list: true
+        fields:
+          - {name: date, label: Күні, type: string}
+          - {name: title, label: Тақырыбы, type: string}
+          - {name: text, label: Мәтіні, type: text}
+          - {name: images, label: Суреттер, type: image, list: true}
+          - name: files
+            label: Файлдар
+            type: object
+            list: true
+            fields: [{name: name, type: string}, {name: url, type: file}]
