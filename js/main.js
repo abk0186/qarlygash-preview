@@ -113,16 +113,6 @@
     });
   }
 
-  const a11y = document.getElementById("a11yBtn");
-  if (a11y) {
-    if (localStorage.getItem("qarlygash-a11y") === "1") document.body.classList.add("a11y");
-    a11y.addEventListener("click", () => {
-      const on = document.body.classList.toggle("a11y");
-      a11y.setAttribute("aria-pressed", on ? "true" : "false");
-      localStorage.setItem("qarlygash-a11y", on ? "1" : "0");
-    });
-  }
-
   /* ---------- lightbox ---------- */
   const lightbox = document.getElementById("lightbox");
   const lightboxClose = document.getElementById("lightboxClose");

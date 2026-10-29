@@ -731,14 +731,5 @@ details.faq p{margin:.6rem 0 0}
 .head-card img{width:120px;height:120px;object-fit:cover;border-radius:50%}
 .head-name{font-size:1.15rem;margin:.2rem 0}
 .team-list li span+span{font-size:.85rem}
-.a11y-btn{border:0;background:#fff;border-radius:999px;width:38px;height:38px;font-size:1.1rem;cursor:pointer;box-shadow:0 1px 4px rgba(0,0,0,.12)}
-body.a11y{font-size:125%;background:#fff!important;color:#000!important}
-body.a11y *{background-image:none!important;color:#000!important;border-color:#000!important}
-body.a11y .section,body.a11y .site-header,body.a11y .soft-cards li,body.a11y .info-table,body.a11y details.faq,body.a11y .doc-list li,body.a11y .head-card{background:#fff!important}
-body.a11y .btn{background:#000!important;color:#fff!important}
-body.a11y img{filter:grayscale(1)}
 h3{margin-top:1.6rem}
 .logo-img{width:48px;height:48px;border-radius:50%;box-shadow:0 3px 10px rgba(80,140,200,.3)}
-.hero-logo{width:140px;height:140px;border-radius:50%;display:block;margin-bottom:1rem;box-shadow:0 6px 20px rgba(80,140,200,.3)}
-.footer-logo{width:56px;height:56px;border-radius:50%}
-@media(max-width:600px){.hero-logo{width:110px;height:110px}}
