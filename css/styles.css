@@ -733,3 +733,36 @@ details.faq p{margin:.6rem 0 0}
 .team-list li span+span{font-size:.85rem}
 h3{margin-top:1.6rem}
 .logo-img{width:48px;height:48px;border-radius:50%;box-shadow:0 3px 10px rgba(80,140,200,.3)}
+
+/* ===== Қарлығаш logo palette ===== */
+:root{
+  --q-sky:#2a9fd6; --q-sky-light:#7fd0ef; --q-sky-soft:#e6f6fc; --q-sky-bg:#cdeff8;
+  --q-navy:#23205a; --q-sun:#ffcc29; --q-sun-deep:#f5a623; --q-leaf:#8cbf26; --q-leaf-ink:#3f6e0f; --q-gold:#c9a24a;
+  --r-red:var(--q-sun); --r-orange:var(--q-sun-deep); --r-yellow:#ffe98a; --r-green:var(--q-leaf); --r-blue:var(--q-sky-light); --r-violet:var(--q-sky);
+  --r-red-ink:#8a5a00; --r-orange-ink:#8a5a00; --r-green-ink:var(--q-leaf-ink); --r-blue-ink:#1b6f99; --r-violet-ink:var(--q-navy);
+  --sky:var(--q-sky-light); --sky-deep:var(--q-sky); --sky-ink:#1b6f99; --sky-soft:var(--q-sky-soft);
+  --mint:var(--q-leaf); --mint-deep:var(--q-leaf-ink); --mint-soft:#eef7dc;
+  --cream:#f4fbfe; --cream-2:#e6f6fc; --ink:#23264a; --muted:#4f5b70;
+  --line:rgba(42,159,214,.25); --shadow:0 10px 30px rgba(35,32,90,.10); --shadow-sm:0 4px 14px rgba(35,32,90,.08);
+  --rainbow:linear-gradient(90deg,var(--q-sky) 0%,var(--q-sky-light) 30%,var(--q-sun) 55%,var(--q-sun-deep) 75%,var(--q-leaf) 100%);
+}
+h1,h2,h3{color:var(--q-navy)}
+.site-header{background:rgba(255,255,255,.92)}
+.hero{background:linear-gradient(180deg,var(--q-sky-bg) 0%,var(--q-sky-soft) 60%,var(--cream) 100%)}
+.section-alt{background:var(--q-sky-soft)}
+.btn-primary{background:var(--q-sun);color:var(--q-navy);box-shadow:0 6px 16px rgba(245,166,35,.35)}
+.btn-primary:hover{background:var(--q-sun-deep);color:var(--q-navy)}
+.hero-cta .btn-primary[href*="wa.me"]{background:#25d366;color:#0b3d1e;box-shadow:0 6px 16px rgba(37,211,102,.3)}
+.hero-cta .btn-primary[href*="wa.me"]:hover{background:#1fb457}
+.btn-ghost{color:var(--q-navy);border-color:var(--q-sky)}
+.btn-ghost:hover{border-color:var(--q-navy);color:var(--q-navy)}
+.eyebrow{background:#fff3c4;color:#6b4a00}
+.section-apply{background:linear-gradient(180deg,#fff8dc 0%,var(--q-sky-soft) 100%)}
+.section-contacts{background:linear-gradient(180deg,var(--q-sky-soft),var(--cream))}
+.soft-cards li{border-top-color:var(--q-sky)}
+.soft-cards li:nth-child(3n+2){border-top-color:var(--q-sun)}
+.soft-cards li:nth-child(3n){border-top-color:var(--q-leaf)}
+.info-table th,details.faq summary{color:var(--q-navy)}
+.lang-btn.is-active{background:var(--q-sky);color:#fff}
+.site-footer{background:var(--q-navy);color:#e6f6fc}
+.site-footer .muted{color:#b9d9ea}
