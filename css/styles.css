@@ -763,6 +763,6 @@ h1,h2,h3{color:var(--q-navy)}
 .soft-cards li:nth-child(3n+2){border-top-color:var(--q-sun)}
 .soft-cards li:nth-child(3n){border-top-color:var(--q-leaf)}
 .info-table th,details.faq summary{color:var(--q-navy)}
-.lang-btn.is-active{background:var(--q-sky);color:#fff}
+.lang-btn.is-active{background:var(--q-navy);color:#fff}
 .site-footer{background:var(--q-navy);color:#e6f6fc}
 .site-footer .muted{color:#b9d9ea}
